@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Media .css">
+</head>
+<body>
+    <div class="main">
+        <section>
+        <div class="navigation">
+            <div class="div">
+                <button><i class="fa-solid fa-bars"></i></button>
+            </div>
+            <ul>
+                <li><i class="fa-solid fa-gauge"></i>&nbsp;&nbsp;<a href="#">Dashboard</a></li>
+                <li><i class="fa-solid fa-user"></i>&nbsp;&nbsp;<a href="#">Profile</a></li>
+                <li><i class="fa-solid fa-chart-bar"></i>&nbsp;&nbsp;<a href="#">Statistics</a></li>
+                <li><i class="fa-solid fa-briefcase"></i>&nbsp;&nbsp;<a href="#">Careers</a></li>
+                <li><i class="fa-solid fa-circle-question"></i>&nbsp;&nbsp;<a href="#">FAQs</a></li>
+                <li><i class="fa-solid fa-star"></i>&nbsp;&nbsp;<a href="#">Testimonials</a></li>
+                <li><i class="fa-solid fa-gear"></i>&nbsp;&nbsp;<a href="#">Settings</a></li>
+                <li><i class="fa-solid fa-right-from-bracket"></i>&nbsp;&nbsp;<a href="#">Logout</a></li>
+            </ul>
+        </div>
+
+        <div class="main-section">
+            <header>
+                <div class="heading-name">
+                    <h5>PRIMARY</h5>
+                    <h3>DASHBOARD</h3>
+                </div>
+                <div class="srch">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>&nbsp;&nbsp;
+                    <input type="text" placeholder="Search">
+                </div>
+            </header>
+
+            <div class="payment-table">
+                <h4 class="data-name">TODAY'S DATA</h4>
+                <div class="main-data">
+                    <div class="data">
+                        <div class="data-amnt">
+                            <h4>Payment Amount <br>
+                            <span>$500.00</span></h4>
+                            <div class="icon">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                        </div>
+                        <p>* * * * &nbsp;&nbsp;* * * * &nbsp;&nbsp;* * * *  <br>
+                        0 2 1 9</p>
+        
+                    </div>
+
+                    <div class="data">
+                        <div class="data-amnt">
+                            <h4>Payment Amount <br>
+                            <span>$600.00</span></h4>
+                            <div class="icon">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                        </div>
+                        <p>* * * * &nbsp;&nbsp;* * * * &nbsp;&nbsp;* * * *  <br>
+                        2 6 1 1</p>
+        
+                    </div>
+
+                    <div class="data">
+                        <div class="data-amnt">
+                            <h4>Payment Amount <br>
+                            <span>$800.00</span></h4>
+                            <div class="icon">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                        </div>
+                        <p>* * * * &nbsp;&nbsp;* * * * &nbsp;&nbsp;* * * *  <br>
+                        0 9 1 5</p>
+        
+                    </div>
+
+                    <div class="data">
+                        <div class="data-amnt">
+                            <h4>Payment Amount <br>
+                            <span>$700.00</span></h4>
+                            <div class="icon">
+                                <i class="fa-solid fa-dollar-sign"></i>
+                            </div>
+                        </div>
+                        <p>* * * * &nbsp;&nbsp;* * * * &nbsp;&nbsp;* * * *  <br>
+                        1 9 1 1</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+            <div class="finance-data">
+                <h4>FINANCE DATA</h4>
+                <table>
+                    <tr class="tr1">
+                        <td><span>Date</span></td>
+                        <td><span>Transaction Type </span></td>
+                        <td><span>Description</span></td>
+                        <td><span>Amount</span></td>
+                        <td><span>Category</span></td>
+                        <td><span>Status</span></td>
+                        <td><span>Action</span></td>
+                    </tr>
+
+                    <tr class="tr2">
+                        <td><span>2023-08-19</span></td>
+                        <td><span>Expenses</span></td>
+                        <td><span>Office Supplies</span></td>
+                        <td><span>$250.00</span></td>
+                        <td><span>Office Expenses</span></td>
+                        <td><span>Pending</span></td>
+                        <td><span>Edit</span></td>
+                    </tr>
+
+                    <tr class="tr3">
+                        <td><span>2023-08-19</span></td>
+                        <td><span>Expenses</span></td>
+                        <td><span>Office Supplies</span></td>
+                        <td><span>$250.00</span></td>
+                        <td><span>Office Expenses</span></td>
+                        <td><span>Pending</span></td>
+                        <td><span>Edit</span></td>
+                    </tr>
+
+                    <tr class="tr2">
+                        <td><span>2023-08-19</span></td>
+                        <td><span>Expenses</span></td>
+                        <td><span>Office Supplies</span></td>
+                        <td><span>$250.00</span></td>
+                        <td><span>Office Expenses</span></td>
+                        <td><span>Pending</span></td>
+                        <td><span>Edit</span></td>
+                    </tr>
+
+                    <tr class="tr3">
+                        <td><span>2023-08-19</span></td>
+                        <td><span>Expenses</span></td>
+                        <td><span>Office Supplies</span></td>
+                        <td><span>$250.00</span></td>
+                        <td><span>Office Expenses</span></td>
+                        <td><span>Pending</span></td>
+                        <td><span>Edit</span></td>
+                    </tr>
+
+                    <tr class="tr2">
+                        <td><span>2023-08-19</span></td>
+                        <td><span>Expenses</span></td>
+                        <td><span>Office Supplies</span></td>
+                        <td><span>$250.00</span></td>
+                        <td><span>Office Expenses</span></td>
+                        <td><span>Pending</span></td>
+                        <td><span>Edit</span></td>
+                    </tr>
+
+                    <tr class="tr3">
+                        <td><span>2023-08-19</span></td>
+                        <td><span>Expenses</span></td>
+                        <td><span>Office Supplies</span></td>
+                        <td><span>$250.00</span></td>
+                        <td><span>Office Expenses</span></td>
+                        <td><span>Pending</span></td>
+                        <td><span>Edit</span></td>
+                    </tr>
+
+                    <tr class="tr2">
+                        <td><span>2023-08-19</span></td>
+                        <td><span>Expenses</span></td>
+                        <td><span>Office Supplies</span></td>
+                        <td><span>$250.00</span></td>
+                        <td><span>Office Expenses</span></td>
+                        <td><span>Pending</span></td>
+                        <td><span>Edit</span></td>
+                    </tr>
+
+                    <tr class="tr3">
+                        <td><span>2023-08-19</span></td>
+                        <td><span>Expenses</span></td>
+                        <td><span>Office Supplies</span></td>
+                        <td><span>$250.00</span></td>
+                        <td><span>Office Expenses</span></td>
+                        <td><span>Pending</span></td>
+                        <td><span>Edit</span></td>
+                    </tr>
+
+
+
+
+                </table>
+            </div>
+
+            <div class="chart-calendar-main">
+                <div class="chart">
+                    <div>
+                        <canvas id="myChart"></canvas>
+                    </div>
+                </div>
+                <div class="calendar">
+                    <div class="wrapper">
+
+                        <div class="container-calendar">
+                            <h3 id="monthAndYear"></h3>
+                            
+                            <div class="button-container-calendar">
+                                <button id="previous" onclick="previous()">&#8249;</button>
+                                <button id="next" onclick="next()">&#8250;</button>
+                            </div>
+                            
+                            <table class="table-calendar" id="calendar" data-lang="en">
+                                <thead id="thead-month"></thead>
+                                <tbody id="calendar-body"></tbody>
+                            </table>
+                            
+                            <div class="footer-container-calendar">
+                                 <label for="month">Jump To: </label>
+                                 <select id="month" onchange="jump()">
+                                     <option value=0>Jan</option>
+                                     <option value=1>Feb</option>
+                                     <option value=2>Mar</option>
+                                     <option value=3>Apr</option>
+                                     <option value=4>May</option>
+                                     <option value=5>Jun</option>
+                                     <option value=6>Jul</option>
+                                     <option value=7>Aug</option>
+                                     <option value=8>Sep</option>
+                                     <option value=9>Oct</option>
+                                     <option value=10>Nov</option>
+                                     <option value=11>Dec</option>
+                                 </select>
+                                 <select id="year" onchange="jump()"></select>       
+                            </div>
+                    
+                        </div>
+                        
+                    </div>
+                </div>
+                    
+            </div>
+
+
+            </div>
+
+
+    </div>
+    </section>
+    <script src="js"></script>
+</body>
+</html>

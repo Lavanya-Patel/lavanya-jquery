@@ -1,0 +1,397 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+.main
+{
+    width:100%;
+    height: 100%;
+    background-color: #F6F6F6;
+}
+section
+{
+    width:99.8%;
+    margin: auto;
+    display: flex;
+}
+.navigation
+{
+    width:15%;
+    height:100vh;
+    position:fixed ;
+    margin-top: 1%;
+}
+.navigation button
+{
+    width:100%;
+    padding:20px 0px;
+    background-color:blueviolet;
+    color: #faf2f2;
+    font-size: 20px;
+    border: none;
+    display: none;
+}
+.navigation ul
+{
+    height:96%;
+    list-style: none;
+    padding-top:10px ;
+    padding-bottom: 45px;
+    background-color: blueviolet;
+    border-radius:20px;
+}
+.navigation li
+{
+    margin:10px 0px;
+    padding: 20px;
+    color: rgb(236, 231, 231);
+}
+.navigation ul li a 
+{
+    font-size: 20px;
+    color:rgb(232, 224, 224);
+}
+.navigation li:hover 
+{
+    width:100%;
+    background-color: rgb(148, 84, 238);
+    border-radius: 5px;
+    transition: 1s;
+}
+.main-section
+{
+   width:100%;
+   margin-left:15%;
+}
+header
+{
+    width:98%;
+    height:80px;
+    margin:1%;
+    background-color:blueviolet;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:5px 5px 20px blueviolet;
+}
+.heading-name
+{
+    font-size: 24px;
+    color: #bf69f1;
+    margin-left: 2%;
+    color: white;
+}
+.srch 
+{
+    width:20%;
+    position: relative;
+    bottom: 11%;
+    color: white;
+}
+.srch span 
+{
+    position: absolute;
+    top:50%;
+    left:3%;
+    color: #d39ff0;
+    color: white;
+}
+.srch input
+{
+    width:100%;
+    padding:8px 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    color: #bf69f1;
+    background-color :rgb(225, 137, 241);
+}
+::placeholder
+{
+    color: #bc5cf4;
+    font-size: 18px;
+}
+.profile
+{
+    height:65px;
+    width:65px;
+    border: 2px solid  #bf69f1;
+    border-radius: 50%;
+    margin-right: 2%;
+}
+.profile img
+{
+    height:100%;
+    width:100%;
+    border-radius: 50%;
+}
+.payment-table
+{
+    width:98%;
+    margin:5% 1%;
+    padding-bottom: 20px;
+    background-color:blueviolet ;
+    border-radius: 10px;
+    box-shadow:5px 5px 20px blueviolet;
+}
+.payment-table .data-name
+{
+    font-size: 24px;
+    padding: 20px;
+    color: #f9f6fb;
+}
+.main-data
+{
+    width:98%;
+    margin:auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-data .data
+{
+    width:20%;
+    height:150px;
+    background-color: white;
+    border-radius: 20px;
+    border:2px solid blueviolet;
+    transition: 0.5s;
+}
+.data:hover
+{
+    box-shadow: 10px 10px 50px blueviolet;
+}
+.data .data-amnt
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:20px;
+}
+.data-amnt h4
+{
+    padding-left:15px;
+    color: #bf69f1;
+    font-size:18px;
+}
+.data-amnt h4 span
+{
+    font-size: 18px;
+}
+.data-amnt .icon
+{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    position: relative;
+    right:8%;
+    top:60%;
+    padding: 13px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+.data p
+{
+    padding:20px;
+    letter-spacing: 2px;
+}
+.finance-data
+{
+    width:98%;
+    height:350px;
+    margin:1%;
+    margin-bottom: 5%;
+    padding-bottom: 20px;
+    background-color:rgb(149, 81, 231) ;
+    border-radius: 10px;
+    overflow-x:hidden;
+    box-shadow:5px 5px rgb(183, 123, 239)
+}
+.finance-data h4
+{
+    font-size: 24px;
+    padding: 40px 20px;
+    color: #ead2fb;
+}
+.finance-data table
+{
+    width:98%;
+    margin: auto;
+    text-align: center;
+}
+.finance-data table .tr1
+{
+    width:100%;
+    height:50px;
+    background-color: rgb(149, 81, 231);
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    position: sticky;
+    top:0%;
+}
+.finance-data table .tr2
+{
+    width:100%;
+    height:50px;
+    background-color:rgb(149, 81, 231);
+    font-size: 16px;
+    font-weight: 600;
+    color:white;
+}
+.finance-data table .tr3
+{
+    width:100%;
+    height:50px;
+    font-size: 16px;
+    font-weight: 600;
+    color:white;
+    background-color: rgb(149, 81, 231);
+}
+.chart-calendar-main
+{
+    width:98%;
+    height:500px;
+    margin:1%;
+    margin-bottom: 5%;
+    background-color:rgb(149, 81, 231);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:5px 5px 20px blueviolet;
+}
+.chart
+{
+    width:45%;
+    height:350px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: white;
+    border:2px solid blueviolet;
+    transition: 0.5s;
+}
+.chart:hover
+{
+    box-shadow: 10px 10px 50px blueviolet;
+}
+#myChart
+{
+    width:100%;
+    height:100%;
+}
+.calendar
+{ 
+    width:45%;
+    height:350px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: white;
+    border:2px solid blueviolet;
+    transition: 0.5s;
+}
+.calendar:hover
+{
+    box-shadow: 10px 10px 50px blueviolet;
+}
+.wrapper 
+{
+    margin:auto;
+    max-width: 1100px;
+}
+.container-calendar 
+{
+    background: #ffffff;
+    max-width: 475px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.button-container-calendar button 
+{
+    cursor: pointer;
+    display: inline-block;
+    zoom: 1;
+    background: #ae57f1;
+    color: #fff;
+    border: 1px solid #bf69f1;
+    border-radius: 4px;
+    padding:2px 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.table-calendar 
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+.table-calendar td, .table-calendar th 
+{
+    padding: 5px;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    color: #121212;
+    vertical-align: top;
+}
+.date-picker.selected 
+{
+    font-weight: bold;
+    outline: 1px dashed  #bf69f1;
+}
+.date-picker.selected span 
+{
+    border-bottom: 2px solid currentColor;
+}
+.date-picker:nth-child(1) 
+{
+  color: red;
+}
+.date-picker:nth-child(6) 
+{
+  color: green;
+}
+#monthAndYear 
+{
+    text-align: center;
+    margin-top: 0;
+}
+.button-container-calendar 
+{
+    position: relative;
+    margin-bottom: 1em;
+    overflow: hidden;
+    clear: both;
+}
+#previous 
+{
+    float: left;
+}
+#next 
+{
+    float: right;
+}
+.footer-container-calendar 
+{
+    margin-top: 1em;
+    border-top: 1px solid #dadada;
+    padding: 10px 0;
+}
+.footer-container-calendar select 
+{
+    cursor: pointer;
+    display: inline-block;
+    zoom: 1;
+    background: #ffffff;
+    color: #585858;
+    border: 1px solid #bfc5c5;
+    border-radius: 3px;
+    padding: 5px 1em;
+}
